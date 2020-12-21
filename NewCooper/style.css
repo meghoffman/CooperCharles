@@ -1,0 +1,120 @@
+h1 {
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 70px;
+    padding-top: 20px;
+  }
+  
+  #container {
+    margin-top: -40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .top {
+    font-family:'Josefin Sans', sans-serif; 
+    font-size: 20px;
+    
+  }
+  
+  img {
+    height: 490px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  em {
+    color: #57c7de;
+  }
+  
+  span {
+    color: #57c7de;
+  }
+  
+  p {
+    font-family: 'Nanum Pen Script', cursive; 
+    
+  }
+  
+  h3 {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 55px;
+    margin-top: -3px;
+  }
+  
+  
+  #birth, #time, #weight, #length, #parents, #friends {
+    border: 1px solid white;
+    width: 200px;
+  }
+  
+  #birth:hover, #time:hover, #weight:hover, #length:hover, #parents:hover, #friends:hover {
+    border: 1px solid white;
+    width: 200px;
+  }
+  
+  #paraAudio {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 10px;
+  }
+  
+  #footer {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  audio {
+    margin: 0 auto;
+    display: block;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1 {
+      display: inline-block;
+      font-size: 50px;
+      float: right;
+      text-align: center;
+      margin-bottom: -5px;
+    }
+    
+    body {
+      width: 400px;
+      margin: 0 auto;
+    }
+  
+    #container {
+      display: flex;
+      flex-direction: column;
+      font-size: 30px;
+      
+    }
+  
+    #container div {
+      margin-bottom: -30px;
+      text-align: center;
+      font-size: 30px;
+      border: 1 px solid black;
+    }
+  
+    #friends {
+      
+      border-bottom: 5px solid white;
+    }
+  
+    #friends:hover {
+      font-size: 30px;
+      border-bottom: 5px solid white; 
+    }
+  
+    img {
+      height: 200px;
+      margin: 0 auto;
+    }
+  }
